@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{0ce6e17a-7981-4b66-8d12-462c25377e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Library">
+      <UniqueIdentifier>{c5842855-979e-4cb1-927e-fc4fb13fa509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System">
+      <UniqueIdentifier>{71104c12-ea3c-48a7-9e59-b12bd27da6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Game">
+      <UniqueIdentifier>{104964d2-32b7-474b-866f-f9bb6d6205ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Game\Internal">
+      <UniqueIdentifier>{37d1cd72-b857-4b6b-b7bb-29d05b86796a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{0524cc20-3ef2-461e-a293-d309b6544d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects">
+      <UniqueIdentifier>{13792d5e-952a-4868-895b-7007202bb251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Rooms">
+      <UniqueIdentifier>{1a0a359d-06d7-41af-a990-fb93f008a18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Input">
+      <UniqueIdentifier>{f561d3a5-3ac5-4ca7-9f67-7a47fac8e585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Text">
+      <UniqueIdentifier>{6dc3bca5-7345-446b-b284-ae9ce6334782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\UI">
+      <UniqueIdentifier>{6b4f8103-5483-457e-a530-dc056b8a012a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Player">
+      <UniqueIdentifier>{a7ab1cc9-ac7d-4e8e-b9d9-70685e370e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Statics">
+      <UniqueIdentifier>{163d726b-bcca-4df9-8907-1806a9dbcd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Templates">
+      <UniqueIdentifier>{7015d328-473f-470b-8cd3-2656094fa80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Enemies">
+      <UniqueIdentifier>{9b63ad91-4d3b-4fb9-9c67-2216784f56c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Game\Collision">
+      <UniqueIdentifier>{8e18d314-e35f-4fdc-9ed8-5cb96fed2fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\System\Game\ParticleSystem">
+      <UniqueIdentifier>{f1849057-a609-4452-9597-97cc6b60051f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\SubParticleSystems">
+      <UniqueIdentifier>{8ee47a6f-b9fd-4374-9792-ed1694c17421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameObjects\Enemies\WaveSpawners">
+      <UniqueIdentifier>{f316dd47-33ac-4d22-8d17-c820f241369d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Statics.cpp">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShooterGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBase.cpp">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTexture.cpp">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Source Files\Framework\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorExtensions.cpp">
+      <Filter>Source Files\Framework\Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLevel.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Framework\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>Source Files\Game\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>Source Files\Game\GameObjects\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShip.cpp">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProjectile.cpp">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSpaceShooterStatics.cpp">
+      <Filter>Source Files\Game\Statics</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastFunction.cpp">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyAsteroid.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Pair.cpp">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files\Framework\System\Game\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_AsteroidExplosion.cpp">
+      <Filter>Source Files\Game\SubParticleSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle_ShipExplosion.cpp">
+      <Filter>Source Files\Game\SubParticleSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySpaceShip.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyProjectile.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLevel.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveSpawner.cpp">
+      <Filter>Source Files\Game\GameObjects\Enemies\WaveSpawners</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverRoom.cpp">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Source Files\Framework\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Statics.h">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShooterGame.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBase.h">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTexture.h">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorExtensions.h">
+      <Filter>Source Files\Framework\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files\Framework\System\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLevel.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Framework\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Source Files\Framework\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputGet.h">
+      <Filter>Source Files\Framework\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Framework\System\Game\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>Source Files\Game\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>Source Files\Game\GameObjects\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShip.h">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProjectile.h">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSpaceShooterStatics.h">
+      <Filter>Source Files\Game\Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectID.h">
+      <Filter>Source Files\Game\Statics</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastFunction.h">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="TupleUnpackers.h">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Source Files\Game\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAsteroid.h">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Source Files\Framework\System\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Source Files\Framework\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Source Files\Framework\System\Game\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleProperties.h">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTexture.h">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmissionShape.h">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_AsteroidExplosion.h">
+      <Filter>Source Files\Game\SubParticleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle_ShipExplosion.h">
+      <Filter>Source Files\Game\SubParticleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySpaceShip.h">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyProjectile.h">
+      <Filter>Source Files\Game\GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLevel.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveSpawner.h">
+      <Filter>Source Files\Game\GameObjects\Enemies\WaveSpawners</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Source Files\Framework\System\Game\ParticleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Source Files\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverRoom.h">
+      <Filter>Source Files\Game\Rooms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
